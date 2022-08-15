@@ -1,0 +1,208 @@
+CRITICAL - 2022-08-13 14:37:49 --> Undefined variable $title
+in APPPATH\Views\posts\edit.php on line 1.
+ 1 APPPATH\Views\posts\edit.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\posts\\edit.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/edit', [], true)
+ 5 APPPATH\Controllers\Posts.php(75): view('posts/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 14:40:23 --> Undefined variable $title
+in APPPATH\Views\posts\edit.php on line 1.
+ 1 APPPATH\Views\posts\edit.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\posts\\edit.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/edit', [], true)
+ 5 APPPATH\Controllers\Posts.php(75): view('posts/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 14:40:31 --> Cannot use object of type App\Models\Post_model as array
+in APPPATH\Views\posts\edit.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/edit', [], true)
+ 4 APPPATH\Controllers\Posts.php(75): view('posts/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->edit('9')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 14:44:01 --> Undefined array key "discription"
+in APPPATH\Views\posts\edit.php on line 11.
+ 1 APPPATH\Views\posts\edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "discription"', 'APPPATH\\Views\\posts\\edit.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/edit', [], true)
+ 5 APPPATH\Controllers\Posts.php(75): view('posts/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 14:44:37 --> Undefined variable $title
+in APPPATH\Views\posts\edit.php on line 1.
+ 1 APPPATH\Views\posts\edit.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\posts\\edit.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/edit', [], true)
+ 5 APPPATH\Controllers\Posts.php(75): view('posts/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 14:44:54 --> Undefined variable $title
+in APPPATH\Views\posts\edit.php on line 1.
+ 1 APPPATH\Views\posts\edit.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\posts\\edit.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/edit', [], true)
+ 5 APPPATH\Controllers\Posts.php(76): view('posts/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 15:19:03 --> Undefined variable $posts
+in APPPATH\Views\posts\create.php on line 7.
+ 1 APPPATH\Views\posts\create.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'APPPATH\\Views\\posts\\create.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/create', [], true)
+ 5 APPPATH\Controllers\Posts.php(62): view('posts/create')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 15:20:09 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1599.
+ 1 SYSTEMPATH\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('10', 'insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert('10', false)
+ 3 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert('10', false)
+ 4 APPPATH\Controllers\Posts.php(90): CodeIgniter\BaseModel->save('10', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->update('10')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 15:20:34 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1599.
+ 1 SYSTEMPATH\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('10', 'insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert('10', false)
+ 3 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert('10', false)
+ 4 APPPATH\Controllers\Posts.php(90): CodeIgniter\BaseModel->save('10', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->update('10')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 15:20:36 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1599.
+ 1 SYSTEMPATH\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('10', 'insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert('10', false)
+ 3 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert('10', false)
+ 4 APPPATH\Controllers\Posts.php(90): CodeIgniter\BaseModel->save('10', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->update('10')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 15:21:28 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1577.
+ 1 SYSTEMPATH\BaseModel.php(1577): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Posts.php(92): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->update('13')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 17:36:04 --> Call to undefined function form_open()
+in APPPATH\Views\posts\view.php on line 22.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/view', [], true)
+ 4 APPPATH\Controllers\Posts.php(36): view('posts/view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->view('lorem-ipsum')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 17:36:35 --> Call to undefined function form_open()
+in APPPATH\Views\posts\view.php on line 22.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/view', [], true)
+ 4 APPPATH\Controllers\Posts.php(36): view('posts/view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->view('lorem-ipsum')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 18:54:07 --> Invalid file: signup.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('signup', [], true)
+ 3 APPPATH\Controllers\RegisterController.php(11): view('signup', [])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\RegisterController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 18:54:48 --> Invalid file: signup.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('signup', [], true)
+ 3 APPPATH\Controllers\RegisterController.php(11): view('signup', [])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\RegisterController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 18:55:17 --> Invalid file: signup.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('signup', [], true)
+ 3 APPPATH\Controllers\RegisterController.php(11): view('signup', [])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\RegisterController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 18:55:47 --> Invalid file: register.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\RegisterController.php(11): view('register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\RegisterController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 18:56:21 --> Invalid file: register.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\RegisterController.php(11): view('register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\RegisterController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 19:19:42 --> Invalid file: register.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\RegisterController.php(35): view('register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\RegisterController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 19:20:03 --> Invalid file: register.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\RegisterController.php(35): view('register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\RegisterController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-13 19:20:41 --> Invalid file: register.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\RegisterController.php(35): view('register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\RegisterController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
