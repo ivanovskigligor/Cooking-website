@@ -1,0 +1,773 @@
+CRITICAL - 2022-08-15 12:44:45 --> Undefined array key "name"
+in APPPATH\Views\user\profile.php on line 16.
+ 1 APPPATH\Views\user\profile.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\user\\profile.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(14): view('user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 12:45:07 --> Undefined array key "name"
+in APPPATH\Views\user\profile.php on line 15.
+ 1 APPPATH\Views\user\profile.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\user\\profile.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(14): view('user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 12:48:33 --> Undefined array key "name"
+in APPPATH\Views\user\profile.php on line 15.
+ 1 APPPATH\Views\user\profile.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\user\\profile.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(14): view('user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 12:52:03 --> Too few arguments to function App\Controllers\UserController::index(), 0 passed in C:\xampp\htdocs\final\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\UserController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 12:52:09 --> Too few arguments to function App\Controllers\UserController::index(), 0 passed in C:\xampp\htdocs\final\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\UserController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 12:54:48 --> Too few arguments to function App\Controllers\UserController::index(), 0 passed in C:\xampp\htdocs\final\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\UserController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 12:54:57 --> Undefined array key "name"
+in APPPATH\Views\user\profile.php on line 15.
+ 1 APPPATH\Views\user\profile.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\user\\profile.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(15): view('user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 13:27:44 --> Undefined variable $posts
+in APPPATH\Views\posts\index.php on line 4.
+ 1 APPPATH\Views\posts\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'APPPATH\\Views\\posts\\index.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/index', [], true)
+ 5 APPPATH\Controllers\Posts.php(20): view('posts/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->index('index')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 15:10:02 --> Trying to access array offset on value of type null
+in APPPATH\Views\posts\edit.php on line 6.
+ 1 APPPATH\Views\posts\edit.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\posts\\edit.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/edit', [], true)
+ 5 APPPATH\Controllers\Posts.php(80): view('posts/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->edit('15')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 15:29:29 --> Undefined array key "title"
+in APPPATH\Controllers\Posts.php on line 38.
+ 1 APPPATH\Controllers\Posts.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Controllers\\Posts.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->view('lorem-ipsum')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 15:29:48 --> Undefined array key "title"
+in APPPATH\Controllers\Posts.php on line 38.
+ 1 APPPATH\Controllers\Posts.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Controllers\\Posts.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->view('lorem-ipsum')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 15:30:10 --> Undefined array key "title"
+in APPPATH\Controllers\Posts.php on line 37.
+ 1 APPPATH\Controllers\Posts.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Controllers\\Posts.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->view('lorem-ipsum')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 15:45:54 --> Undefined variable $posts
+in APPPATH\Views\posts\index.php on line 2.
+ 1 APPPATH\Views\posts\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'APPPATH\\Views\\posts\\index.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/index', [], true)
+ 5 APPPATH\Controllers\Posts.php(20): view('posts/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->index('index')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 15:46:14 --> Undefined array key "user_id"
+in APPPATH\Views\posts\index.php on line 2.
+ 1 APPPATH\Views\posts\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Views\\posts\\index.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/index', [], true)
+ 5 APPPATH\Controllers\Posts.php(20): view('posts/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->index('index')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 15:46:44 --> Undefined array key "user_id"
+in APPPATH\Views\posts\index.php on line 2.
+ 1 APPPATH\Views\posts\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Views\\posts\\index.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/index', [], true)
+ 5 APPPATH\Controllers\Posts.php(21): view('posts/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->index('index')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 15:47:08 --> Undefined array key "user_id"
+in APPPATH\Views\posts\index.php on line 2.
+ 1 APPPATH\Views\posts\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Views\\posts\\index.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/index', [], true)
+ 5 APPPATH\Controllers\Posts.php(21): view('posts/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->index('index')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 18:53:44 --> Undefined array key "id"
+in APPPATH\Views\user\profile.php on line 11.
+ 1 APPPATH\Views\user\profile.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\user\\profile.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(21): view('user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 18:57:28 --> Too few arguments to function App\Controllers\UserController::edit_user(), 0 passed in C:\xampp\htdocs\final\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\UserController.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->edit_user()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 18:57:51 --> Undefined variable $id
+in APPPATH\Controllers\UserController.php on line 37.
+ 1 APPPATH\Controllers\UserController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\UserController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->edit_user()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 18:58:28 --> Invalid file: posts/editprofile.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts/editprofile.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/editprofile', [], true)
+ 3 APPPATH\Controllers\UserController.php(39): view('posts/editprofile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->edit_user()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 18:58:42 --> Invalid file: posts/editprofile.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts/editprofile.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/editprofile', [], true)
+ 3 APPPATH\Controllers\UserController.php(39): view('posts/editprofile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->edit_user()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 19:29:04 --> Undefined variable $aboutme
+in APPPATH\Views\user\profile.php on line 25.
+ 1 APPPATH\Views\user\profile.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aboutme', 'APPPATH\\Views\\user\\profile.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(22): view('user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 20:10:47 --> Undefined variable $aboutme
+in APPPATH\Views\user\profile.php on line 25.
+ 1 APPPATH\Views\user\profile.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aboutme', 'APPPATH\\Views\\user\\profile.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(22): view('user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 20:12:36 --> Undefined variable $aboutme
+in APPPATH\Views\user\profile.php on line 25.
+ 1 APPPATH\Views\user\profile.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aboutme', 'APPPATH\\Views\\user\\profile.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(22): view('user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 20:12:51 --> Undefined array key "aboutme"
+in APPPATH\Views\user\profile.php on line 25.
+ 1 APPPATH\Views\user\profile.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "aboutme"', 'APPPATH\\Views\\user\\profile.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(22): view('user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 20:12:57 --> Array to string conversion
+in APPPATH\Views\user\profile.php on line 25.
+ 1 APPPATH\Views\user\profile.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\user\\profile.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('user/profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(22): view('user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 20:26:45 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 7
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 7', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^update)$#u', 'profile', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('profile')
+ 4 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('profile')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 20:27:01 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 7
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 7', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^update)$#u', 'profile', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('profile')
+ 4 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('profile')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 20:27:02 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 7
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 7', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^update)$#u', 'user/editprofile', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('user/editprofile')
+ 4 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('user/editprofile')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 20:27:10 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 7
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 7', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^update)$#u', 'profile', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('profile')
+ 4 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('profile')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 20:27:20 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 7
+in SYSTEMPATH\Router\Router.php on line 418.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: unmatched closing parenthesis at offset 7', 'SYSTEMPATH\\Router\\Router.php', 418)
+ 2 SYSTEMPATH\Router\Router.php(418): preg_match('#^update)$#u', 'profile', [])
+ 3 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('profile')
+ 4 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('profile')
+ 5 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 20:35:50 --> Undefined variable $posts
+in APPPATH\Views\user\editprofile.php on line 22.
+ 1 APPPATH\Views\user\editprofile.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'APPPATH\\Views\\user\\editprofile.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\editprofile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('user/editprofile', [], true)
+ 5 APPPATH\Controllers\UserController.php(43): view('user/editprofile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->edit_user()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 20:35:50 --> Undefined variable $posts
+in APPPATH\Views\user\editprofile.php on line 22.
+ 1 APPPATH\Views\user\editprofile.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $posts', 'APPPATH\\Views\\user\\editprofile.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\editprofile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('user/editprofile', [], true)
+ 5 APPPATH\Controllers\UserController.php(43): view('user/editprofile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->edit_user()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 21:34:55 --> Call to a member function move() on null
+in APPPATH\Controllers\UserController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->update('5')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 21:41:02 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->update('5')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 21:42:13 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->update('5')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 21:43:04 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->update('5')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 21:43:32 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\UserController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->update('5')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 21:59:24 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 21:59:28 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:00:11 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\Posts.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:04:09 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:05:26 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:05:29 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:05:31 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:06:26 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:07:29 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:07:30 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:07:30 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:07:30 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:07:30 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:07:31 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:07:31 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:07:31 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:07:31 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:08:07 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:11:11 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:11:57 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:12:20 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:13:01 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:13:27 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:14:33 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:15:40 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:15:58 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:18:06 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:18:10 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:18:43 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:18:45 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:20:47 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:20:49 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:22:23 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:22:30 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:22:36 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:22:55 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:23:44 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:27:52 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:28:45 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:29:51 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:30:08 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:30:15 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:30:16 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:30:17 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:39:20 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:40:35 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:49:14 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->update('27')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:49:22 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Posts.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->update('27')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:52:33 --> syntax error, unexpected single-quoted string "image", expecting "]"
+in APPPATH\Controllers\Posts.php on line 118.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Posts.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Posts')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Posts')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Posts', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:52:33 --> syntax error, unexpected single-quoted string "image", expecting "]"
+in APPPATH\Controllers\Posts.php on line 118.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Posts.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Posts')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Posts')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Posts', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:52:34 --> syntax error, unexpected single-quoted string "image", expecting "]"
+in APPPATH\Controllers\Posts.php on line 118.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Posts.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Posts')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Posts')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Posts', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:53:57 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Posts.php on line 100.
+ 1 APPPATH\Controllers\Posts.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Posts.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->update('27')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:56:19 --> Undefined variable $data
+in APPPATH\Controllers\Posts.php on line 119.
+ 1 APPPATH\Controllers\Posts.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Posts.php', 119)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->update('27')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-15 22:59:36 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\Posts.php on line 122.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Posts.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Posts')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Posts')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Posts', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

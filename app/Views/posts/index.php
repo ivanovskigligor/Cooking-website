@@ -1,9 +1,15 @@
-<p><a class="btn btn-dark btn-lg" href="posts/create">add</a></p>
 
 
-<?php if (!empty($post) && is_array($post)): ?>
 
-    <?php foreach ($post as $posted_item): ?>
+<div id="main">
+<?php
+if (session()->get('isLoggedIn')) : ?>
+    <p><a class="btn btn-dark btn-lg" href="posts/create">add</a></p>
+<?php endif; ?>
+
+<?php if (!empty($post) && is_array($post)) : ?>
+
+    <?php foreach ($post as $posted_item) : ?>
 
         <h3><?= esc($posted_item['title']) ?></h3>
         <small>Posted: <?php echo $posted_item['timestamp']; ?></small>
@@ -13,13 +19,42 @@
         <br>
         <p><a class="btn btn-dark" href="posts/<?= esc($posted_item['slug'], 'url') ?>">View article</a></p>
     <?php endforeach ?>
-    
 
+<?php else : ?>
 
-<?php else: ?>
-
-    <h3>No News</h3>
-
-    <p>Unable to find any news for you.</p>
+    <h3>No Posts</h3>
 
 <?php endif ?>
+</div>
+
+<script>
+  $(document).ready(function() {
+
+    $('#searchButton').click(function(event, value, caption) {
+      event.preventDefault();
+      const text = $("#textarea").val();
+      console.log(text);
+      if (text == '') {
+        alert("Please review your search Dparameters");
+      } else {
+        $.ajax({
+          url: 'search',
+          type: 'post',
+          dataType: "html",
+          data: {
+            text: text,
+          },
+          success: function (response) {
+                        $("#main").html(response);
+                    },
+                    error: function (result) {
+                        $('body').html("err");
+                    },
+                    beforeSend: function (d) {
+                        $('#main').html("Searching...");
+                    }
+                });
+      }
+    })
+  });
+</script>

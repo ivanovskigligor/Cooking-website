@@ -41,6 +41,11 @@ $routes->get('/', 'Pages::index');
 
 
 $routes->match(['get', 'post'], 'posts/create', 'Posts::create_post');
+$routes->match(['get', 'post'], 'posts/delete_video', 'Posts::delete_video');
+
+$routes->match(['get', 'post'], '/search', 'Posts::search');
+
+
 $routes->match(['get', 'post'], 'posts/update/(:num)', 'Posts::update/$1');
 $routes->get('pages', 'Pages::view/$1');
 $routes->get('about', 'Pages::view/about');
@@ -48,10 +53,12 @@ $routes->get('posts', 'Posts::index/index');
 $routes->get('/posts/(:segment)', 'Posts::view/$1');
 $routes ->get('posts/delete/(:num)','Posts::delete/$1');
 $routes ->get('posts/edit/(:num)','Posts::edit/$1');
-//$routes->match(['get', 'post'], 'comments/create/(:num)','Comments::create_comment/$1');
+$routes->match(['get', 'post'], '/comment','Comments::comment');
 
 
 
+
+$routes->match(['get', 'post'],'/update/(:num)', 'UserController::update/$1');
 
 $routes->get('/profile', 'UserController::index');
 $routes->get('/', 'RegisterController::index');
@@ -63,6 +70,7 @@ $routes->get('/logout', 'LoginController::logout');
 
 $routes->match(['get', 'post'],'/store', 'RegisterController::store');
 
+$routes->get('/user/editprofile', 'UserController::edit_user');
 
 
 /*

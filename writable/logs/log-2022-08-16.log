@@ -1,0 +1,1544 @@
+CRITICAL - 2022-08-16 00:17:54 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->update('5')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 00:18:35 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->update('5')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 00:19:07 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->update('5')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 00:21:28 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->update('5')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 00:21:56 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->update('5')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 00:23:03 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->update('5')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 00:23:09 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->update('5')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 00:26:03 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->update('5')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 00:26:24 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->update('5')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 01:15:07 --> mysqli_sql_exception: Column 'post_id' cannot be null in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\final\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\final\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\final\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\final\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\final\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\final\app\Controllers\Comments.php(17): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Comments->comment()
+#10 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comments))
+#11 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-08-16 01:18:39 --> mysqli_sql_exception: Column 'post_id' cannot be null in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\final\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\final\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\final\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\final\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\final\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\final\app\Controllers\Comments.php(17): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Comments->comment()
+#10 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comments))
+#11 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-08-16 01:19:01 --> mysqli_sql_exception: Column 'post_id' cannot be null in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\final\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\final\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\final\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\final\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\final\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\final\app\Controllers\Comments.php(17): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Comments->comment()
+#10 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comments))
+#11 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-08-16 01:23:28 --> mysqli_sql_exception: Column 'body' cannot be null in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\final\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\final\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\final\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\final\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\final\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\final\app\Controllers\Comments.php(17): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Comments->comment()
+#10 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comments))
+#11 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-08-16 01:23:55 --> mysqli_sql_exception: Column 'body' cannot be null in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\final\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\final\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\final\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\final\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\final\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\final\app\Controllers\Comments.php(17): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Comments->comment()
+#10 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comments))
+#11 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-08-16 01:25:17 --> mysqli_sql_exception: Column 'body' cannot be null in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\final\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\final\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\final\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\final\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\final\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\final\app\Controllers\Comments.php(17): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Comments->comment()
+#10 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comments))
+#11 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-08-16 01:25:23 --> mysqli_sql_exception: Column 'body' cannot be null in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\final\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\final\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\final\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\final\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\final\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\final\app\Controllers\Comments.php(17): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Comments->comment()
+#10 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comments))
+#11 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-08-16 01:26:10 --> mysqli_sql_exception: Column 'body' cannot be null in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\final\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\final\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\final\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\final\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\final\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\final\app\Controllers\Comments.php(17): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Comments->comment()
+#10 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comments))
+#11 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-08-16 01:31:42 --> Undefined variable $comments
+in APPPATH\Views\posts\view.php on line 29.
+ 1 APPPATH\Views\posts\view.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $comments', 'APPPATH\\Views\\posts\\view.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/view', [], true)
+ 5 APPPATH\Controllers\Posts.php(38): view('posts/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->view('last-try')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 01:35:25 --> Undefined variable $comments
+in APPPATH\Views\posts\view.php on line 29.
+ 1 APPPATH\Views\posts\view.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $comments', 'APPPATH\\Views\\posts\\view.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/view', [], true)
+ 5 APPPATH\Controllers\Posts.php(38): view('posts/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->view('last-try')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 01:37:11 --> Undefined variable $comment
+in APPPATH\Views\posts\view.php on line 29.
+ 1 APPPATH\Views\posts\view.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $comment', 'APPPATH\\Views\\posts\\view.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/view', [], true)
+ 5 APPPATH\Controllers\Posts.php(38): view('posts/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->view('last-try')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 01:48:06 --> Undefined array key "name"
+in APPPATH\Views\posts\view.php on line 35.
+ 1 APPPATH\Views\posts\view.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\posts\\view.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/view', [], true)
+ 5 APPPATH\Controllers\Posts.php(41): view('posts/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->view('last-try')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 01:48:39 --> Undefined array key "name"
+in APPPATH\Views\posts\view.php on line 35.
+ 1 APPPATH\Views\posts\view.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\posts\\view.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/view', [], true)
+ 5 APPPATH\Controllers\Posts.php(41): view('posts/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->view('last-try')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 01:50:39 --> Undefined array key "name"
+in APPPATH\Views\posts\view.php on line 35.
+ 1 APPPATH\Views\posts\view.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\posts\\view.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/view', [], true)
+ 5 APPPATH\Controllers\Posts.php(41): view('posts/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->view('last-try')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 01:50:44 --> Undefined array key "name"
+in APPPATH\Views\posts\view.php on line 35.
+ 1 APPPATH\Views\posts\view.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\posts\\view.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/view', [], true)
+ 5 APPPATH\Controllers\Posts.php(41): view('posts/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->view('last-try')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 01:56:24 --> Undefined array key "name"
+in APPPATH\Views\posts\view.php on line 35.
+ 1 APPPATH\Views\posts\view.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\posts\\view.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/view', [], true)
+ 5 APPPATH\Controllers\Posts.php(41): view('posts/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->view('last-try')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 01:56:47 --> Undefined array key "name"
+in APPPATH\Views\posts\view.php on line 35.
+ 1 APPPATH\Views\posts\view.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\posts\\view.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/view', [], true)
+ 5 APPPATH\Controllers\Posts.php(41): view('posts/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->view('last-try')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 01:57:22 --> Undefined variable $users
+in APPPATH\Views\posts\view.php on line 35.
+ 1 APPPATH\Views\posts\view.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'APPPATH\\Views\\posts\\view.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/view', [], true)
+ 5 APPPATH\Controllers\Posts.php(41): view('posts/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->view('last-try')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 01:57:32 --> Undefined array key "name"
+in APPPATH\Views\posts\view.php on line 35.
+ 1 APPPATH\Views\posts\view.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\posts\\view.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/view', [], true)
+ 5 APPPATH\Controllers\Posts.php(41): view('posts/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->view('last-try')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 01:57:37 --> Undefined array key "name"
+in APPPATH\Views\posts\view.php on line 35.
+ 1 APPPATH\Views\posts\view.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\posts\\view.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/view', [], true)
+ 5 APPPATH\Controllers\Posts.php(41): view('posts/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->view('last-try')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 01:58:02 --> Too few arguments to function App\Models\Comment_model::getComments(), 0 passed in C:\xampp\htdocs\final\app\Controllers\Posts.php on line 31 and exactly 1 expected
+in APPPATH\Models\Comment_model.php on line 13.
+ 1 APPPATH\Controllers\Posts.php(31): App\Models\Comment_model->getComments()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->view('last-try')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 01:58:17 --> Undefined array key "timestamp"
+in APPPATH\Views\posts\view.php on line 32.
+ 1 APPPATH\Views\posts\view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "timestamp"', 'APPPATH\\Views\\posts\\view.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\posts\\view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/view', [], true)
+ 5 APPPATH\Controllers\Posts.php(41): view('posts/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->view('last-try')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 02:58:59 --> url_title(): Argument #1 ($str) must be of type string, null given, called in C:\xampp\htdocs\final\app\Controllers\Posts.php on line 69
+in SYSTEMPATH\Helpers\url_helper.php on line 475.
+ 1 APPPATH\Controllers\Posts.php(69): url_title(null, '-', true)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 02:59:36 --> Undefined variable $imageName
+in APPPATH\Controllers\Posts.php on line 72.
+ 1 APPPATH\Controllers\Posts.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'APPPATH\\Controllers\\Posts.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 02:59:38 --> Undefined variable $imageName
+in APPPATH\Controllers\Posts.php on line 72.
+ 1 APPPATH\Controllers\Posts.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'APPPATH\\Controllers\\Posts.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->create_post()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 03:05:34 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->update('4')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 03:06:31 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->update('4')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 03:06:57 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->update('4')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 03:07:05 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\UserController->update('4')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 03:46:55 --> Object of class App\Controllers\Posts could not be converted to string
+in APPPATH\Controllers\Posts.php on line 96.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->delete_video('29')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 03:53:18 --> Object of class App\Controllers\Posts could not be converted to string
+in APPPATH\Controllers\Posts.php on line 96.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->delete_video()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 03:53:51 --> unlink(../uploads): No such file or directory
+in APPPATH\Controllers\Posts.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../uploads): No such file or directory', 'APPPATH\\Controllers\\Posts.php', 97)
+ 2 APPPATH\Controllers\Posts.php(97): unlink('../uploads')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->delete_video()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 03:54:42 --> unlink(../uploads): No such file or directory
+in APPPATH\Controllers\Posts.php on line 98.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../uploads): No such file or directory', 'APPPATH\\Controllers\\Posts.php', 98)
+ 2 APPPATH\Controllers\Posts.php(98): unlink('../uploads')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->delete_video()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 03:54:54 --> unlink(../uploads): No such file or directory
+in APPPATH\Controllers\Posts.php on line 98.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../uploads): No such file or directory', 'APPPATH\\Controllers\\Posts.php', 98)
+ 2 APPPATH\Controllers\Posts.php(98): unlink('../uploads')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->delete_video()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 03:56:21 --> unlink(../uploads): No such file or directory
+in APPPATH\Controllers\Posts.php on line 99.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../uploads): No such file or directory', 'APPPATH\\Controllers\\Posts.php', 99)
+ 2 APPPATH\Controllers\Posts.php(99): unlink('../uploads')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->delete_video()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 03:57:50 --> Call to a member function delete() on null
+in APPPATH\Controllers\Posts.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->delete_video()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 03:58:08 --> Call to a member function delete() on null
+in APPPATH\Controllers\Posts.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->delete_video()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 04:07:02 --> unlink(uploads/): Is a directory
+in APPPATH\Controllers\Posts.php on line 98.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(uploads/): Is a directory', 'APPPATH\\Controllers\\Posts.php', 98)
+ 2 APPPATH\Controllers\Posts.php(98): unlink('FCPATH\\uploads')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->delete_video()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 04:07:23 --> unlink(../uploads/): No such file or directory
+in APPPATH\Controllers\Posts.php on line 98.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../uploads/): No such file or directory', 'APPPATH\\Controllers\\Posts.php', 98)
+ 2 APPPATH\Controllers\Posts.php(98): unlink('../uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->delete_video()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 04:07:46 --> unlink(../uploads/): No such file or directory
+in APPPATH\Controllers\Posts.php on line 98.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../uploads/): No such file or directory', 'APPPATH\\Controllers\\Posts.php', 98)
+ 2 APPPATH\Controllers\Posts.php(98): unlink('../uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->delete_video()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 04:07:55 --> unlink(../uploads/): No such file or directory
+in APPPATH\Controllers\Posts.php on line 98.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../uploads/): No such file or directory', 'APPPATH\\Controllers\\Posts.php', 98)
+ 2 APPPATH\Controllers\Posts.php(98): unlink('../uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->delete_video()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 04:08:27 --> unlink(../uploads/1660639183_2cd637f5d80cc8a3f944.mp4): No such file or directory
+in APPPATH\Controllers\Posts.php on line 98.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../uploads/1660639183_2cd637f5d80cc8a3f944.mp4): No such file or directory', 'APPPATH\\Controllers\\Posts.php', 98)
+ 2 APPPATH\Controllers\Posts.php(98): unlink('../uploads/1660639183_2cd637f5d80cc8a3f944.mp4')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->delete_video()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 04:08:57 --> unlink(/uploads/1660639183_2cd637f5d80cc8a3f944.mp4): No such file or directory
+in APPPATH\Controllers\Posts.php on line 98.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/uploads/1660639183_2cd637f5d80cc8a3f944.mp4): No such file or directory', 'APPPATH\\Controllers\\Posts.php', 98)
+ 2 APPPATH\Controllers\Posts.php(98): unlink('/uploads/1660639183_2cd637f5d80cc8a3f944.mp4')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->delete_video()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 04:09:03 --> unlink(/uploads/1660639183_2cd637f5d80cc8a3f944.mp4): No such file or directory
+in APPPATH\Controllers\Posts.php on line 98.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/uploads/1660639183_2cd637f5d80cc8a3f944.mp4): No such file or directory', 'APPPATH\\Controllers\\Posts.php', 98)
+ 2 APPPATH\Controllers\Posts.php(98): unlink('/uploads/1660639183_2cd637f5d80cc8a3f944.mp4')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->delete_video()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 04:09:51 --> unlink(../uploads.): Permission denied
+in APPPATH\Controllers\Posts.php on line 98.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../uploads.): Permission denied', 'APPPATH\\Controllers\\Posts.php', 98)
+ 2 APPPATH\Controllers\Posts.php(98): unlink('../uploads.')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->delete_video()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 04:09:57 --> unlink(../uploads.): Permission denied
+in APPPATH\Controllers\Posts.php on line 98.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../uploads.): Permission denied', 'APPPATH\\Controllers\\Posts.php', 98)
+ 2 APPPATH\Controllers\Posts.php(98): unlink('../uploads.')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->delete_video()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 04:11:37 --> unlink(../uploads.): Permission denied
+in APPPATH\Controllers\Posts.php on line 98.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../uploads.): Permission denied', 'APPPATH\\Controllers\\Posts.php', 98)
+ 2 APPPATH\Controllers\Posts.php(98): unlink('../uploads.')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->delete_video()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 04:11:50 --> unlink(../uploads.): Permission denied
+in APPPATH\Controllers\Posts.php on line 98.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../uploads.): Permission denied', 'APPPATH\\Controllers\\Posts.php', 98)
+ 2 APPPATH\Controllers\Posts.php(98): unlink('../uploads.')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->delete_video()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 04:12:01 --> unlink(uploads.): Permission denied
+in APPPATH\Controllers\Posts.php on line 98.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(uploads.): Permission denied', 'APPPATH\\Controllers\\Posts.php', 98)
+ 2 APPPATH\Controllers\Posts.php(98): unlink('FCPATH\\uploads')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->delete_video()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 04:13:31 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Posts.php(102): CodeIgniter\Model->update('4', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->delete_video()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 04:42:51 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 12288 bytes)
+in APPPATH\Controllers\Posts.php on line 140.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2022-08-16 04:52:36 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 04:52:36 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 04:52:37 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 04:52:37 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 04:52:37 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 04:52:37 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 04:52:38 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 04:52:38 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 04:52:38 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 04:52:38 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 04:52:38 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 04:52:38 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 04:52:38 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 04:52:38 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 04:53:14 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 04:53:14 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 04:54:23 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 04:54:23 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 04:54:25 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 04:54:25 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 04:54:25 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 04:54:25 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 04:54:25 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 04:54:25 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 04:54:25 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 04:54:25 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('fsa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 04:56:57 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('sda')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 04:56:57 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('sda')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 04:58:36 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('sa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 04:58:36 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('sa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 05:00:02 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('sa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 05:00:02 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('sa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 05:00:03 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('sa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 05:00:03 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('sa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 05:00:03 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('sa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 05:00:03 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('sa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 05:00:03 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('sa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 05:00:03 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('sa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 05:00:04 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('sa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 05:00:04 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('sa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 05:00:04 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('sa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 05:00:04 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('sa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 05:00:04 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('sa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 05:00:04 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('sa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 05:00:05 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('sa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 05:00:05 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('sa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 05:00:05 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('sa')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 05:00:05 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('sa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 05:00:29 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search('dsadas')
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 05:00:29 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search('dsadas')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 05:00:41 --> mysqli_sql_exception: Table 'sys3.video' doesn't exist in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('select * from v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(24): CodeIgniter\Database\BaseConnection->query('select * from v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search(NULL)
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 05:00:41 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 24.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search(null)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 05:02:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%%' at line 1 in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM v...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM v...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM v...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(25): CodeIgniter\Database\BaseConnection->query('SELECT * FROM v...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search(NULL)
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 05:02:37 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 25.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search(null)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-16 05:02:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%%' at line 1 in C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\final\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\final\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\final\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\final\app\Models\Post_model.php(25): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\final\app\Controllers\Posts.php(144): App\Models\Post_model->search(NULL)
+#5 C:\xampp\htdocs\final\system\CodeIgniter.php(898): App\Controllers\Posts->search()
+#6 C:\xampp\htdocs\final\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#7 C:\xampp\htdocs\final\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\final\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-08-16 05:02:58 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\Post_model.php on line 25.
+ 1 APPPATH\Controllers\Posts.php(144): App\Models\Post_model->search(null)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:03:28 --> Invalid file: posts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('posts', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:03:51 --> Invalid file: posts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('posts', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:04:00 --> Invalid file: posts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('posts', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:04:54 --> Invalid file: posts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('posts', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:05:07 --> Invalid file: posts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('posts', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:05:34 --> Invalid file: posts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('posts', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:06:35 --> Invalid file: posts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('posts', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:06:43 --> Invalid file: posts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('posts', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:06:56 --> Invalid file: posts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('posts', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:07:27 --> Invalid file: posts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('posts')
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:07:28 --> Invalid file: posts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('posts')
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:07:29 --> Invalid file: posts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('posts')
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:07:37 --> Invalid file: posts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('posts')
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:07:41 --> Invalid file: posts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('posts')
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:14:24 --> Invalid file: posts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('posts', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:14:29 --> Invalid file: posts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('posts', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:15:44 --> Invalid file: posts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('posts', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:16:55 --> Invalid file: posts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('posts', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:16:59 --> Invalid file: posts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('posts', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:20:15 --> Invalid file: post.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('post.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('post', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('post', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:20:19 --> Invalid file: post.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('post.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('post', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('post', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:22:57 --> Invalid file: index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\index.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('index', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:23:03 --> Invalid file: index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\index.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('index', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:24:36 --> Invalid file: index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\index.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('index', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:24:40 --> Invalid file: index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\index.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('index', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:39:27 --> Array to string conversion
+in APPPATH\Controllers\Posts.php on line 145.
+ 1 APPPATH\Controllers\Posts.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Posts.php', 145)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:39:36 --> Array to string conversion
+in APPPATH\Controllers\Posts.php on line 145.
+ 1 APPPATH\Controllers\Posts.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Posts.php', 145)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:41:35 --> Invalid file: posts/posts.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('posts/posts.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('posts/posts', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('posts/posts', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:42:15 --> Invalid file: post.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('post.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('post', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('post', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:42:15 --> Invalid file: post.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('post.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('post', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('post', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:42:21 --> Invalid file: post.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('post.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('post', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('post', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 05:42:25 --> Invalid file: post.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('post.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('post', [], true)
+ 3 APPPATH\Controllers\Posts.php(137): view('post', [...])
+ 4 APPPATH\Controllers\Posts.php(145): App\Controllers\Posts->display([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->search()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-16 06:19:40 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\templates\header.php on line 67.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/header', [], true)
+ 3 APPPATH\Controllers\Posts.php(21): view('templates/header')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Posts->index('index')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

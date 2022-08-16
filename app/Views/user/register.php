@@ -8,7 +8,7 @@
                 </div>
                 <form>
                     <div class="form-group mb-3">
-                        <input type="text" name="name" placeholder="Name"  class="form-control" >
+                        <input type="text" name="name" placeholder="Full Name"  class="form-control" >
                     </div>
                     <div class="form-group mb-3">
                         <input type="email" name="email" placeholder="Email" class="form-control" >

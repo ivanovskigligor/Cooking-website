@@ -4,6 +4,7 @@
   <title>Raspolozenie</title>
   <link rel="stylesheet" href="https://bootswatch.com/5/sandstone/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="https://cdn.ckeditor.com/ckeditor5/35.0.1/classic/ckeditor.js"></script>
   </link>
 </head>
 
@@ -11,7 +12,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="<?php echo base_url(); ?>">Navbar</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -50,13 +51,16 @@
                                   </li>';
           }
           ?>
-          <li class="nav-item">
-            <a class="nav-link" href="<?php echo base_url(); ?>/profile">Profile</a>
-          </li>
         </ul>
       </div>
     </div>
   </nav>
-
+ 
   <div class="container">
     <br>
+    <form <?php $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+                if($actual_link !== "http://localhost:8080/posts"):?>
+                hidden<?php endif ?>>
+    <input id="textarea" class="form-control me-sm-2" type="text" placeholder="Search" type="search">
+    <button id="searchButton" class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
