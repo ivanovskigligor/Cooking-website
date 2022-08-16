@@ -1,12 +1,11 @@
 
-</div>
-<em>&copy; 2021</em>
+<em>&copy; 2022</em>
 <script>
-            ClassicEditor
-                .create(document.querySelector('#editor'))
-                .catch(error => {
-                    console.error(error);
-                });
-        </script>
+    ClassicEditor
+        .create(document.querySelector('#editor'))
+        .catch(error => {
+            console.error(error);
+        });
+</script>
 </body>
 </html>

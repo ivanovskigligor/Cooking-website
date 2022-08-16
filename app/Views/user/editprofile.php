@@ -15,21 +15,26 @@
 
                         </div>
                     </div>
-                    <div id="greski" class="card-body p-4 text-black">
+                    <div id="error" class="card-body p-4 text-black">
                         <form enctype="multipart/form-data">
                             <?= csrf_field() ?>
-                            <console class="log"><?php echo session()->get('id') ?></console>
+<br>
+                            <div class="form-group">
                             <label for="name">Name</label>
-                            <textarea name="name" cols="45" rows="4" value=""><?php echo $users['name'] ?></textarea><br />
-
-                            <label for="aboutme">About me</label>
-                            <textarea name="aboutme" cols="45" rows="8" value=""><?php echo $users['aboutme'] ?></textarea><br />
+                            <textarea class = "form-control" name="name" cols="45" rows="4" value=""><?php echo $users['name'] ?></textarea><br />
+                            </div>
 
                             <div class="form-group">
-                                <label for="formFile" class="form-label mt-4">Default file input example</label>
+                            <label for="aboutme">About me</label>
+                            <textarea class = "form-control" name="aboutme" cols="45" rows="8" value=""><?php echo $users['aboutme'] ?></textarea><br />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="formFile" class="form-label mt-4">Add profile picture</label>
                                 <input class="form-control" type="file" name="image">
                             </div>
-                            <input type="submit" name="submit" value="Edit profile">
+<br>
+                            <input class = "btn btn-dark btn-lg" type="submit" name="submit" value="Edit profile">
                         </form>
 
                     </div>
@@ -52,8 +57,8 @@
                         alert("Edit Successful!");
                         window.location = "/profile"
                     } else {
-                        document.getElementById("greski").hidden = false;
-                        $('#greski').html(response);
+                        document.getElementById("error").hidden = false;
+                        $('#error').html(response);
                     }
                 },
                 error: function(result) {
